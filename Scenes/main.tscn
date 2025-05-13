@@ -255,7 +255,7 @@ z_index = 1
 position = Vector2(207, 63)
 
 [node name="Camera2D" type="Camera2D" parent="."]
-position = Vector2(48, -16)
+position = Vector2(48, -17)
 zoom = Vector2(3, 3)
 script = ExtResource("3_8gbba")
 
@@ -279,7 +279,13 @@ position = Vector2(-112, -80)
 position = Vector2(16, -64)
 
 [node name="Enemy" parent="." instance=ExtResource("7_6bp64")]
-position = Vector2(-80, -96)
+position = Vector2(-80, -95)
+
+[node name="Enemy2" parent="." instance=ExtResource("7_6bp64")]
+position = Vector2(206, -96)
+
+[node name="Enemy3" parent="." instance=ExtResource("7_6bp64")]
+position = Vector2(-111, 64)
 
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(-112, -96)
